@@ -4,4 +4,3 @@ var myToDoModel = Backbone.Model.extend({
 		completed: false
 	},
 });
-console.log('todomodel created');
