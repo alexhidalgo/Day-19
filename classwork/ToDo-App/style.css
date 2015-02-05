@@ -28,3 +28,11 @@
 	width: 15em;
 	margin-right: 1em;
 }
+
+.strike-text {
+	text-decoration: line-through;
+}
+
+.no-strike-text {
+	text-decoration: none;
+}
