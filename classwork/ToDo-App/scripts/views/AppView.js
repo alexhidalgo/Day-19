@@ -32,10 +32,8 @@ var AppView = Backbone.View.extend({
 
 
   onToDoAdd: function(newToDoModel) {
-    // console.log(myToDoModel.attributes);
     var newToDoView = new ToDoView({model: newToDoModel});
     this.$toDoBoard.append(newToDoView.$el);
-
   }
 });
 

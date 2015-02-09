@@ -4,7 +4,6 @@ $(document).ready(function(){
 
 });
 
-
 //jquery .this references the DOM element that calls the function
 // while MVC frameworks like backbone .this refers to the object that the
 //function is within for example our this.$textbox is inside a initialize

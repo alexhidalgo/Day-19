@@ -31,13 +31,13 @@ var ToDoView = Backbone.View.extend({
 				completed: true
 			});
 		}
-		console.log(this.model.get('completed'));
+		// console.log(this.model.get('completed'));
 
 	},
 
 	onModelChanged: function() {
 		this.$el.toggleClass('strike-text');
-		console.log(this.$el);
+		// console.log(this.$el);
 		// this.$el.css('text-decoration', 'line-through');
 		// console.log('onModelChanged was triggered');
 
